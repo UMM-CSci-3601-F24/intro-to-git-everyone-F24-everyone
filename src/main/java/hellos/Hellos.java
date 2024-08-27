@@ -10,11 +10,12 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(elSaysHello());
+    builder.append(mgeeSaysHello());
     builder.append(josieSaysHello());
     builder.append(kkSaysHello());
     builder.append(keenanSaysHello());
     builder.append(macSaysHello());
-    builder.append(mgeeSaysHello());
+
     builder.append(nicSaysHello());
 
     return builder.toString();
