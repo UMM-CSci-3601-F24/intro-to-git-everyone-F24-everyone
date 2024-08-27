@@ -9,6 +9,7 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+    builder.append(bumboSaysHello());
     builder.append(elSaysHello());
     builder.append(josieSaysHello());
     builder.append(kkSaysHello());
@@ -33,6 +34,10 @@ public class Hellos {
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private String bumboSaysHello() {
+    return "Bumbo says 'Hewwo!'\n";
   }
 
   private String macSaysHello() {
