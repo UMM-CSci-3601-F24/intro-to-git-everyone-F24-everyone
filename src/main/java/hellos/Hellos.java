@@ -10,10 +10,12 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(elSaysHello());
+    builder.append(mgeeSaysHello());
     builder.append(josieSaysHello());
     builder.append(kkSaysHello());
     builder.append(keenanSaysHello());
     builder.append(macSaysHello());
+
     builder.append(nicSaysHello());
 
     return builder.toString();
@@ -21,6 +23,10 @@ public class Hellos {
 
   private String josieSaysHello() {
     return "Josie says 'Howdy!'\n";
+  }
+
+  private String mgeeSaysHello() {
+    return "Fake Student Mgee says 'Hello Friends!'\n";
   }
 
   private String nicSaysHello() {
