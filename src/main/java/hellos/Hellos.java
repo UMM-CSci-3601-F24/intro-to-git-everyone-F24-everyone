@@ -8,6 +8,7 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
+
     builder.append(bumboSaysHello());
 
     builder.append(kkSaysHello());
@@ -25,7 +26,7 @@ public class Hellos {
   }
 
   private String bumboSaysHello() {
-    return "Bumbo says 'hewwo'\n";
+    return "Bumbo says 'Hewwo!'\n";
   }
 
 }
