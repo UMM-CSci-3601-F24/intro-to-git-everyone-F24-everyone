@@ -9,10 +9,20 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+    builder.append(jakobSaysHello());
+    builder.append(johnSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
+  }
+
+  private String jakobSaysHello() {
+    return "Jakob says 'Hello!'\n";
+  }
+
+  private String johnSaysHello() {
+    return "John says 'Hello!'\n";
   }
 
   private String nicSaysHello() {
